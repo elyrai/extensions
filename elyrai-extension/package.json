@@ -1,0 +1,22 @@
+{
+  "name": "elyrai-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js",
+    "build:watch": "webpack --config webpack/webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.197",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {}
+}

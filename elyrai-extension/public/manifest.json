@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Elyrai",
+  "version": "1.0.0",
+  "description": "The Elyrai extension enhances your trading experience by bringing AI-powered insights directly into Jupiter's & Meteora interface. When exploring tokens, a smart chat window appears providing real-time market analysis through Elyrai, our specialized AI model based on Assister.",
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": [
+        "https://jup.ag/swap/*",
+        "https://app.meteora.ag/dlmm/*",
+        "https://app.meteora.ag/pools/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
