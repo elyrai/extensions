@@ -86,7 +86,10 @@ Once you want to trade a token either on Jupiter or Meteora, you will see an Ely
 
 https://github.com/user-attachments/assets/cddafcc8-e4dd-4160-91a6-4e228b762393
 
-https://github.com/user-attachments/assets/3f5d7e5a-2d40-4996-8704-d2355911ec2b
+
+https://github.com/user-attachments/assets/06d5de1c-cb01-40ec-aa1f-ba8a81e709c4
+
+
 
 ## Contribution
 
